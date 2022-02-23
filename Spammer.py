@@ -31,7 +31,7 @@ while(True):
      time.sleep(2)
      page.fill("#password > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)", account_password)
     except:
-     print("Incorrect password!")
+     print("Incorrect email!")
     time.sleep(3)
     page.locator("text=Avanti").click()
     time.sleep(5)
